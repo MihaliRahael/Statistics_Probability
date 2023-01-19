@@ -74,13 +74,13 @@ A: Median is least prone to outliers. Mode is nothing but the most frequent occu
 
 **Imp Interview Que** : Denominator of population variance is n. Then why sample variance is divided by n-1?
 
-![](media/705fe6d1f58801e54866677b188d0774.png)
+![image](https://user-images.githubusercontent.com/106816732/213427795-8af5cb6f-5656-4409-9a4a-b06fb10b1b95.png)
 
 **A**:
 
 When we calculate sample mean/variance, it is supposed to be very similar or near to population mean/var. But in case of skewed data, samples may pick from the tail portion. In that scenario, the sample mean/var will be not near to pop mean/var. So researchers tested to divide using n-1, n-2, n-3 and so on and found out n-1 gives more similar answer to pop mean/var. This is also called unbiased estimation.
 
-![](media/dcab2d2e6969e9cb85f6fde2b9c1f42e.png)
+![image](https://user-images.githubusercontent.com/106816732/213427840-8ed76ece-bfdb-4b2a-87a2-f6bccfe38730.png)
 
 **Percentile**: If percentile value of entry x is n% that means, n percentage of total distribution is less than x.
 
@@ -116,7 +116,7 @@ Upper fence = 7 + 1.5(4) = 13
 
 Using the above data we can draw **box plot**.
 
-![](media/21f354f024b42abb0cf71560851ea71b.png)
+![image](https://user-images.githubusercontent.com/106816732/213427926-1b352074-e4fe-40b1-9d89-61d8bc364b26.png)
 
 **Distributions**
 
@@ -150,7 +150,7 @@ For finding percentage we need to find area first ie area of tail portion. Area 
 
 So area of right portion (tail portion) = 1-0.5987 = .4 = 40%.
 
-![](media/62761725e65a149e8fbcc19c2c07204a.png)
+![image](https://user-images.githubusercontent.com/106816732/213427997-dc3feeea-9313-4e72-93c3-cb8baf3d587b.png)
 
 **Q: Average IQ of Jews are 100 with std dev of 15. What % of population would you expect to have an IQ lower than 85?**
 
@@ -216,7 +216,7 @@ Suppose we are conducting an experiment to know whether a coin is fair or not. W
 
 We have started our experiment. Tossed for 100 times and got 30 heads. Can we say that coin is fair or not? How do we decide how far we can go from the threshold value to decide? We will use **significance value** (alpha) which is defined by a domain expert. If alpha =0.05 means **confidence interval** = 1-0.05 =0.95. Means CI is 95%.
 
-![](media/442af1870340ce03bfb292b9574ce1fd.png)
+![image](https://user-images.githubusercontent.com/106816732/213428067-cdbb4b79-79ca-4ef1-932d-187a90dd936f.png)
 
 When we get heads 30 times, who are we to say that coin is not fair? Its decided by domain experts using significance value. If the experiment results fall with in the confidence interval then we can accept null hypothesis. CI says 20 and 75 are the limits. If we get 10 heads then we reject null hypo and accept alternative hyp.
 
@@ -240,11 +240,11 @@ Q: Colleges in Karnataka has a placement rate of 85%. A new college was recently
 
 A: We need to know whether the college has different placement rate. So the rate can be decreased or increased so the problem is a two tailed test. 2.5% on both sides cos of 0.05 alpha and CI is 95%.
 
-![](media/117fb0b7657c30e920419aad3494d744.png)
+![image](https://user-images.githubusercontent.com/106816732/213428106-3eb8748f-f491-47da-be30-55ae5d5a183d.png)
 
 If the question was like, does the college has a placement rate more than 85%? Then the problem would be one tailed test.
 
-![](media/b54359e83f4ae3f474656ce048941e5f.png)
+![image](https://user-images.githubusercontent.com/106816732/213428125-c27000c4-3759-434e-9cc2-749dce58a44a.png)
 
 **Confidence Interval**
 
@@ -256,11 +256,11 @@ In inferential stats, using the sample data, we will estimate some statistic ink
 
 A: Here we are provided with pop std dev, sigma = 100, not sample value. n =25 ; sample mean x_bar=520. We need to construct a CI about the mean of 95% which means alpha=0.05 ie 2.5% either side. We need to find the values which creates the CI. **Whenever pop std dev is given, we have to apply z test.**
 
-![](media/4eb9ecfb5ebf7521b0cdb6619415b11a.png)
+![image](https://user-images.githubusercontent.com/106816732/213428166-73434aeb-f795-4bf4-856a-7eb81efc3303.png)
 
 For z test to be happen, there are 2 conditions, pop std dev is given and sample size n\>=30. Here its 25 , that’s ok. Here we have taken 25 for easy computation.
 
-![](media/8306f22054f34dd82946670fdb138944.png) ![](media/6c573e5404e9d5c2258f8190e0077cc9.png)
+![image](https://user-images.githubusercontent.com/106816732/213428202-4965138a-7634-4ca6-86e8-2e1ddade4a59.png)) ![image](https://user-images.githubusercontent.com/106816732/213428233-43b9c817-b469-4de2-8a38-85134fcd7dc9.png)
 
 Z score is taken from z table. Z0.025 value means what ? Total area of curve is 1. We need area of 1-0.025 = 0.975. So we need to fetch value of Z0.975. Z is 1.96 ( refer left z table)
 
@@ -282,9 +282,9 @@ Practise question – Find the average size of the sharks throughout the world. 
 
 Here pop std dev is not given, so we will use t test. Note that while using t test we need degree of freedom inorder to fetch value from t table. Degree of freedom = n-1 = 24
 
-![](media/a12dd9ee1ed49aa38c9cf60601145951.png)
+![image](https://user-images.githubusercontent.com/106816732/213428317-9b686c6c-73d2-4877-a274-ae1f2451ba4b.png)
 
-![](media/5f614a741a506c77cc090bb39a01af4a.png)
+![image](https://user-images.githubusercontent.com/106816732/213428347-53d68481-708b-4136-9c22-f24aab3a64e6.png)
 
 **One sample z test**
 
@@ -300,15 +300,15 @@ A: 1) Define null hypo; H0 : mean =100
 
 4) State decision rule . Here we need to see whether medication affect the intelligence, So it can increase or decrease. So two tail test.
 
-![](media/4a18ad9b006c1602a39b62265ad741ae.png)
+![image](https://user-images.githubusercontent.com/106816732/213428391-c47a894c-a5d0-45f7-b0f5-3700929e0465.png)
 
 5) Calculate test statistic. Here Z score.
 
-![](media/5d2fa74b8aee6c27cbcb379ddc8693f3.png)
+![image](https://user-images.githubusercontent.com/106816732/213428403-07bb6b80-5c11-4136-b493-c83a8c7587a0.png)
 
 Original formula of z score contain sigma/sqrt(n). If we are using population data we can ignore sqrt(n). Since we are processing on sample data, we need a standard error (which has obtained from experimentations.) Dividing by sqrt(n) reduces the standard error as the sample size keeps on increasing our mean values will be match with population.
 
-![](media/9ce2b6b5c7e219c233d013575a2ce88c.png)
+![image](https://user-images.githubusercontent.com/106816732/213428445-21d9692a-c351-4119-b2bb-bacb17e948b2.png)
 
 6) State our decision : From decision rule we understood, if z value stands within CI we can accept H0. Here 14.6 \> 1.96. So we will accept alternative hypothesis. But an important question is pending. Did the medication increase or decrease the intelligence. Answer is improved the intelligence cos z score is beyond upper CI.
 
@@ -344,7 +344,7 @@ A: 1) Ho: Mean =100 ; H1: mean not equal to 100.
 
 4) Test statistic
 
-![](media/561382b2c0ce259b4ee1a7e0cfaad283.png)
+![image](https://user-images.githubusercontent.com/106816732/213428490-162f8821-c5df-4f14-8c15-4d281cd2d3de.png)
 
 T value \> 2.045, so reject H0. So p value \< significance value. So result may fall in either of two tail side. Since value is greater than upper threshold, test result is in rightside tail. So intelligence has increased.
 
@@ -385,6 +385,6 @@ From the table we get value of 5.991. If chi square value is greater than 5.99, 
 
 1.  Calculate the test statistic. fo – observed and fe is expected.
 
-![](media/eda7ab90e6d27313c946ff557fd77942.png)
+![image](https://user-images.githubusercontent.com/106816732/213428522-ff7d42cc-0a23-42ae-a4a6-e85d1d9589c4.png)
 
 X2 = 232.94 which is greater than 5.99, so reject null hypothesis.
